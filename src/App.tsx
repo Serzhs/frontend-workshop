@@ -10,7 +10,8 @@ const App = () => {
       <Wrapper>
         <Header />
         <Container>
-          <Home />
+          {/*passing "title" tp Home page, pages can be called components as well*/}
+          <Home title="Home page" />
         </Container>
       </Wrapper>
       <ToastContainer />
