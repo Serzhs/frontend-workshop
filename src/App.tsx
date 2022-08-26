@@ -1,10 +1,19 @@
 import React from 'react';
-import { ThemeProvider, Button } from '@lokalise/louis';
+import {ThemeProvider, ToastContainer} from '@lokalise/louis'
+import Home from './pages/Home'
+import Header from './components/Header'
+import {Wrapper, Container} from './styles'
 
 const App = () => {
   return (
     <ThemeProvider activeTheme="base">
-      <Button>123</Button>
+      <Wrapper>
+        <Header />
+        <Container>
+          <Home />
+        </Container>
+      </Wrapper>
+      <ToastContainer />
     </ThemeProvider>
   );
 };
