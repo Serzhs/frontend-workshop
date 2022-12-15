@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+This repo is for for [louis](https://lokalise.github.io/louis/?path=/docs/overview-intro--page) workshop. 
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
